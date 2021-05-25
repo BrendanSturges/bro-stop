@@ -10,7 +10,6 @@ if [[ " ${recent[0]} " =~ " ${dudeyoucansee40fromhere} " ]]; then
         shutdown -k "bro. you gotta stop."
      if [[ " ${recent[3]} " =~ " ${dudeyoucansee40fromhere} " ]]; then 
         shutdown -t 60 "you cant be trusted. drink some water"
-# whatever you want to do when array contains value
 fi
 
 # this is super bad and not optimized but I'm drunk on a monday night so uh. deal with it.
