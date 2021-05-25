@@ -8,7 +8,7 @@ recent = curl -X "GET" "https://api.spotify.com/v1/me/player/recently-played?lim
 if [[ " ${recent[0]} " =~ " ${dudeyoucansee40fromhere} " ]]; then
     if [[ " ${recent[1]} " =~ " ${dudeyoucansee40fromhere} " ]]; then
         shutdown -k "bro. you gotta stop."
-     if [[ " ${recent[3]} " =~ " ${dudeyoucansee40fromhere} " ]]; then 
+     if [[ " ${recent[2]} " =~ " ${dudeyoucansee40fromhere} " ]]; then 
         shutdown -t 60 "you cant be trusted. drink some water"
 fi
 
