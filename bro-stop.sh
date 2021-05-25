@@ -1,5 +1,5 @@
 # add this to cron, run it every 3 minutes - pass it your OAUTH token
-# */3 * * * * ./bro-stop.sh
+# */3 * * * * ./bro-stop.sh TOKEN TOKEN
 
 recent = curl -X "GET" "https://api.spotify.com/v1/me/player/recently-played?limit=10" -H "Accept: application/json" -H "Content-Type: application/json" -H "Authorization: Bearer $1" 
 
